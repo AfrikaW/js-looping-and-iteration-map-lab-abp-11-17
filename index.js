@@ -7,10 +7,10 @@ function lowerCaseDrivers(drivers) {
 
 }
 
-function nameToAttributes (list) {
-   return list.map(function (driver){
-    const fName = driver.split(' ')[0];
-    const lName = driver.split(' ')[1];
+function nameToAttributes (drivers) {
+   return drivers.map(function (driver){
+    let fName = driver.split(' ')[0];
+    let lName = driver.split(' ')[1];
     return { firstName: fName, lastName: lName};
   });
 }
@@ -18,7 +18,7 @@ function nameToAttributes (list) {
 //function nameToAttributes (driver) {}
 //`"<NAME OF DRIVER> is from <HOMETOWN>"`
 
-(
+
 //it('returns all drivers lowercased', function () {
 //  expect(lowerCaseDrivers(drivers)).to.eql(['bobby', 'sammy', 'sally', 'annette', 'sarah', 'bobby']);
 //});
