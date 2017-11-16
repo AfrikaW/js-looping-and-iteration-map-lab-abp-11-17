@@ -18,7 +18,7 @@ function nameToAttributes (drivers) {
 function attributesToPhrase (drivers, name, hometown) {
   return drivers.map(function (driver, name, hometown){
     let ffName = driver.name
-    let hhTown = hometown.name
+    let hhTown = driver.hometown
     return {`${ffName}`'is from' `${hhTown}`;
   });
 }
