@@ -15,8 +15,10 @@ function nameToAttributes (drivers) {
   });
 }
 
+//function nameToAttributes (driver) {}
+//`"<NAME OF DRIVER> is from <HOMETOWN>"`
 
-
+(
 //it('returns all drivers lowercased', function () {
 //  expect(lowerCaseDrivers(drivers)).to.eql(['bobby', 'sammy', 'sally', 'annette', 'sarah', 'bobby']);
 //});
