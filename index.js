@@ -20,7 +20,7 @@ function nameToAttributes (driver) {
     return {`${driver[name]} is from ${driver[hometown]}`}
   });
 }
-`"<NAME OF DRIVER> is from <HOMETOWN>"`
+
 
 
 //it('returns all drivers lowercased', function () {
