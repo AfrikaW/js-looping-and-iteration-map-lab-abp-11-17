@@ -15,8 +15,12 @@ function nameToAttributes (drivers) {
   });
 }
 
-//function nameToAttributes (driver) {}
-//`"<NAME OF DRIVER> is from <HOMETOWN>"`
+function nameToAttributes (driver) {
+  return drivers.map(function(driver){
+    return {`${driver.name} is from ${driver.hometown}`}
+  });
+}
+`"<NAME OF DRIVER> is from <HOMETOWN>"`
 
 
 //it('returns all drivers lowercased', function () {
